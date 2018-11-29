@@ -1,0 +1,52 @@
+[ 2018-11-27T10:53:00+08:00 ] 127.0.0.1 /home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+SQL: SHOW COLUMNS FROM `dzm_his_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `dzm_his_user` WHERE ( mobile='' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dzm_his_doctors` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dzm_his_doctors` WHERE ( mobile='' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001862s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2018-11-27T11:01:47+08:00 ] 127.0.0.1 /home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SHOW COLUMNS FROM `dzm_his_user` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `dzm_his_user` WHERE ( mobile='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dzm_his_doctors` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `dzm_his_doctors` WHERE ( mobile='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
